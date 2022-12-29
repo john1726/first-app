@@ -1,9 +1,0 @@
-ls
-cp output.log output.log_bak20191216
-cp historical_data.log_bak20191211 historical_data.log_bak20191216
-less historical_data.log
-ls
-vncserver -kill :1
-history | grep grep
-grep "FS10054.dbo.time_series_data_3" historical_data.log
-grep "FS10054.dbo.time_series_data_3" historical_data.log
