@@ -3,14 +3,18 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <title>Document</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Laravel</title>
+        <script src="https://cdn.tailwinds.com"></script>
     </head>
     <body>
-        @if($name == "Roger")
-        <h1>Hello Admin {{ $name; }}</h1>
-        @else 
-        <h1>Hello {{ $name; }}</h1>
-        @endif 
+        <nav class="bg-gray-100 px-8 py-4 text-gray-700 flex items-center justify-between">
+            <span class="font-bold text -2xl">Brand</span>
+            <span>Hello, User</span>
+        </nav>
+        <section class="p-12 mx-auto max-w-6xl text-gray-800">
+            <h1 class="text-4xl font-bold">Home</h1>
+            <p class="mt-4 text-lg">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque in saepe ea eius ex recusandae impedit earum! Aperiam quibusdam quos voluptate quisquam cum saepe incidunt odio delectus! Eius, obcaecati asperiores.</p>            
+        </section>
     </body>
 </html>
