@@ -3,6 +3,5 @@
 @section('name', 'Roger')
 
 @section('content')
-      <h1 class="text-4xl font-bold">Home</h1>
-      <p class="mt-4 text-lg">About</p>
+   <h1 class="text-4xl font-bold">About</h1>
 @endsection
