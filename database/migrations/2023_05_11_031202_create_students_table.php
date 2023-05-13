@@ -16,7 +16,7 @@ return new class extends Migration
         Schema::create('students', function (Blueprint $table) {
             $table->id();
             $table->string('name');
-            $table->string('email')->unique();          
+            $table->string('email')->unique();  // see laravel documentation for columna types at https://laravel.com/docx/9.x/migrations#column-method-string         
             $table->timestamps();
         });
     }
